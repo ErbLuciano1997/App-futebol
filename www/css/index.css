@@ -23,6 +23,7 @@ body {
   min-height: 700px;
   background: url("../img/fifa-19-stadium-background-blur-01-ps4-us-08jun18.jpg")
     no-repeat center center/cover;
+    overflow-x: hidden;
 }
 
 body:after {
@@ -66,7 +67,8 @@ nav a {
 */
 
 #jogadores {
-  margin-top: 7%;
+  justify-content: center;
+  margin-top: 10%;
 }
 
 /* Card moldura do jogador */
