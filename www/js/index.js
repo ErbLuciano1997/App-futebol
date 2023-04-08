@@ -130,7 +130,7 @@ const listaJogadores = [
 function atualizarListaJogadores() {
 
   const listaHtmlJogadores = listaJogadores.map((jogador) => {
-    return ` <div class="fut-player-card col-sm-4 col-xs-12">
+    return ` <div class="fut-player-card m-2 col-lg-3 col-md-4 col-xs-12">
       <div class="player-card-top">
         <div class="player-master-info">
           <div class="player-rating">
