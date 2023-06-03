@@ -5,7 +5,7 @@ const listaJogadores = [
     pais: "Brasil",
     estado: "Pernambuco",
     posicao: "Atacante",
-    sigla: "CA",
+    sigla: "ATA",
     gols: 5,
     passes: 4,
     fotoJogador: "img/atualizada-removebg-preview.png",
@@ -18,7 +18,7 @@ const listaJogadores = [
     forca: 77,
     drible: 92,
     defesa: 56,
-    resistencia: 90
+    resistencia: 90,
   },
   {
     nome: "Erb Filho",
@@ -39,7 +39,7 @@ const listaJogadores = [
     forca: 91,
     drible: 80,
     defesa: 70,
-    resistencia: 92
+    resistencia: 92,
   },
   {
     nome: "Allan Rodrigo",
@@ -47,7 +47,7 @@ const listaJogadores = [
     pais: "Brasil",
     estado: "Pernambuco",
     posicao: "Atacante",
-    sigla: "CA",
+    sigla: "ATA",
     gols: 18,
     passes: 2,
     fotoJogador: "img/allan_img.png",
@@ -60,7 +60,7 @@ const listaJogadores = [
     forca: 90,
     drible: 75,
     defesa: 60,
-    resistencia: 60
+    resistencia: 60,
   },
   {
     nome: "Allyson César",
@@ -81,7 +81,7 @@ const listaJogadores = [
     forca: 99,
     drible: 89,
     defesa: 42,
-    resistencia: 93
+    resistencia: 93,
   },
   {
     nome: "Pedro Henrique",
@@ -102,7 +102,7 @@ const listaJogadores = [
     forca: 83,
     drible: 92,
     defesa: 96,
-    resistencia: 84
+    resistencia: 84,
   },
   {
     nome: "Douglas Weslley",
@@ -123,12 +123,53 @@ const listaJogadores = [
     forca: 75,
     drible: 93,
     defesa: 58,
-    resistencia: 78
+    resistencia: 78,
+  },
+  {
+    nome: "Ricardo Lucena",
+    idade: 48,
+    pais: "Brasil",
+    estado: "Pernambuco",
+    posicao: "Volante",
+    sigla: "VOL",
+    gols: 12,
+    passes: 15,
+    fotoJogador: "img/quinho_img.png",
+    fotoPais: "img/brazil-flag-with-grunge-texture-png.png",
+    fotoEstado: "img/bandeira-do-estado-de-pernambuco.png",
+    nivel: 99,
+    fisico: 85,
+    chute: 92,
+    velocidade: 84,
+    forca: 96,
+    drible: 90,
+    defesa: 93,
+    resistencia: 83,
+  },
+  {
+    nome: "Binho (Veron)",
+    idade: 43,
+    pais: "Brasil",
+    estado: "Pernambuco",
+    posicao: "Atacante",
+    sigla: "ATA",
+    gols: 100,
+    passes: 35,
+    fotoJogador: "img/binho_img.png",
+    fotoPais: "img/brazil-flag-with-grunge-texture-png.png",
+    fotoEstado: "img/bandeira-do-estado-de-pernambuco.png",
+    nivel: 99,
+    fisico: 85,
+    chute: 82,
+    velocidade: 83,
+    forca: 90,
+    drible: 99,
+    defesa: 58,
+    resistencia: 87,
   },
 ];
 
 function atualizarListaJogadores() {
-
   const listaHtmlJogadores = listaJogadores.map((jogador) => {
     return ` <div class="fut-player-card m-2 col-lg-3 col-md-4 col-xs-12">
       <div class="player-card-top">
