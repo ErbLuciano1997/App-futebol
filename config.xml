@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.proj1_erb" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>App de teste</name>
-    <description>Sample Apache Cordova App</description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+<widget id="br.com.app-futebol" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SorteioTimes</name>
+    <description>App para sortear aleatoriamente os 10 primeiros jogadores cadastrados</description>
+    <author email="erb_luciano@hotmail.com" href="https://github.com/ErbLuciano1997?tab=repositories">
         Apache Cordova Team
     </author>
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <icon src="res/icone_app.png"/>
 </widget>
