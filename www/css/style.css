@@ -295,17 +295,16 @@
   
   
   
-  button {
+  .botao-cadastrar {
     padding: 20px 60px;
     background-color: #000;
     border: none;
     font-size: 18px;
     position: relative;
-    /* overflow: hidden; */
     transition: 500ms;
   }
   
-  button span {
+  .botao-cadastrar span {
     color: gray;
     position: relative;
     transition: 500ms;
@@ -316,7 +315,7 @@
     font-weight: 600;
   }
   
-  button:before {
+  .botao-cadastrar:before {
     content: '';
     position: absolute;
     width: 0%;
@@ -333,50 +332,50 @@
      0 0 50px rgb(0, 174, 255);
   }
   
-  button div {
+  .botao-cadastrar div {
     transition: 500ms;
     position: absolute;
     background-color: rgb(0, 174, 255);
     box-shadow: 0 0 15px rgb(0, 174, 255), 0 0 30px rgb(0, 174, 255), 0 0 50px rgb(0, 174, 255);
   }
   
-  button .top {
+  .botao-cadastrar .top {
     width: 15px;
     height: 2px;
     top: 0;
     left: 0;
   }
   
-  button .bottom {
+  .botao-cadastrar .bottom {
     width: 15px;
     height: 2px;
     bottom: 0;
     right: 0;
   }
   
-  button .left {
+  .botao-cadastrar .left {
     width: 2px;
     height: 15px;
     top: 0;
     left: 0;
   }
   
-  button .right {
+  .botao-cadastrar .right {
     width: 2px;
     height: 15px;
     bottom: 0;
     right: 0;
   }
   
-  button:hover {
+  .botao-cadastrar:hover {
     color: #000;
   }
   
-  button:hover span {
+  .botao-cadastrar:hover span {
     color: #000;
   }
   
-  button:hover:before {
+  .botao-cadastrar:hover:before {
     width: 100%;
     height: 100%;
     top: 0;
@@ -385,13 +384,13 @@
     bottom: 0;
   }
   
-  button:hover .top, 
-  button:hover .bottom {
+  .botao-cadastrar:hover .top, 
+  .botao-cadastrar:hover .bottom {
     width: 100%;
   }
   
-  button:hover .left,
-  button:hover .right {
+  .botao-cadastrar:hover .left,
+  .botao-cadastrar:hover .right {
     height: 100%;
   }
   
